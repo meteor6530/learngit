@@ -1,0 +1,34 @@
+WCC4N0652300 
+800-8558-4253
+
+ssh登录,输入 passwd root 然后连续输入两次新密码即可
+owncloud mysql git
+
+DLNA 音频视频播放
+My Cloud 内置了 Twonkey Server 作为 DLNA 服务，针对有些只支持 DLNA 协议的设备，再也不用把视频传送到手机和平板了。
+Twonkey Server 的 Web 管理页面端口是 9000，访问 http://your-my-cloud-ip:9000，默认无用户名和密码，可以进行各种设置。
+
+
+ 
+CPU: Mindspeed Comcerto 2000 (M86261G-12) s双核 cortex-A9  处理器 主频650 MHz
+网卡: Broadcom BCM54612E 千兆网卡. 博通的网站上并没有说该网卡是否支持jumbo frames功能. 但是 mycloud 的 UI 设置里并没有该功能.
+内存: 256 MB of Samsung K4B2G1646E DDR3
+闪存:512 MB of Winbound 25X40CL . surface pro 里也用了这款闪存
+当然了,我这款内置的是西部数据自家的3TB NAS 专用红盘.
+
+1550-3897-9656
+下边列出所支持的功能:
+SMB/CIFS 文件共享协议
+AFP 支持Mac 系统文件共享
+NFS (only to default Public mount)
+FTP server
+Snapshot ("safepoint") backup 安全快照, 弥补不能做 阵列备份的缺陷
+Apple Time Machine 已测试,很好用,跟 time capsule 一样
+UPnP Certified AV/DLNA 1.5 Media Server (Twonky 7) 靠 twonky 提供流媒体服务, 1080P 视频测试流畅
+SmartWare for Windows 备份, unlimited licenses (local network). 3 licenses for SmartWare Pro also included. 本地备份可以连接无限设备,远程备份需要西部数据的账号, 购买该产品附带3个高级账号
+User level permissions (no groups, no quotas) 不知道是什么
+HTTP web administration (no HTTPS)
+Email alerts (w/ built-in SMTP service for no-hassle setup)可以设置警告等级, 自动把运行状态发给你预留的邮箱,让你在外边也能知道 mycloud 的运行情况
+Remote access to shares via WDMycloud service 通过移动客户端和 windows mac 的应用可以远程控制分享文件. 当然了, Linux 的系统都支持
+WD Photos photo viewer app for iOS, and Android (requires WDmycloud service)同步照片的, 个人用 dropbox
+My Cloud Mobile App for iOS, Android and Windows Phone
